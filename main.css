@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    background-image: url("actual.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-position: center;
+  
+}
+.navbar {
+    background:#b5b5b5;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header 
+{
+        background-image: url('actual.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+.bg {
+        width: 100%;
+        height: 100%;
+        background: url('/actual.jpg/') no-repeat center center fixed;
+    
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        -webkit-animation: myfirst 5s ; /* Chrome, Safari, Opera */
+        animation: myfirst 5s ;
+      }
